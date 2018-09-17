@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Catamaran', sans-serif;
 }
 
 header {
@@ -17,22 +17,6 @@ p {
   line-height: 1.5em;
   color: #666;
   font-weight: 300;
-  font-family: 'Catamaran', sans-serif;
-}
-
-h1 {
-  color: #C654F9;
-}
-
-h3 {
-  color: #666;
-  margin-bottom: 30px;
-  margin-top: 15px;
-  font-weight: 200;
-}
-
-p.data {
-  font-size: 20px;
 }
 
 p.suscribe {
@@ -90,34 +74,14 @@ img {
   display: inline-block;
 }
 
-.icon img {
-  width: 100px;
-  position: absolute;
-  top: 80px;
-  right: -120px;
-}
-
 .content {
   margin-bottom: 150px;
   color: white;
 }
 
-.description {
-  width: 300px;
-}
-
-.text {
-  width: 300px;
-  text-align: left;
-  margin: auto;
-  font-weight: 300;
-  color: #333;
-}
-
 .mail {
   display: inline-block;
   color: #333;
-
 }
 
 .suscribe {
