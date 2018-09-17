@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+header {
+  margin: 5px 0 4px 0;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #666;
+  font-weight: 300;
+  font-family: 'Catamaran', sans-serif;
+}
+
+h1 {
+  color: #C654F9;
+}
+
+h3 {
+  color: #666;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  font-weight: 200;
+}
+
+p.data {
+  font-size: 20px;
+}
+
+p.suscribe {
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size: 15px;
+}
+
+button {
+  background-color: #dd93b6;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  padding: 6px 25px;
+  font-size: 9px;
+  margin: 5px;
+  display: inline-block;
+}
+
+button:hover {
+  background: #eacada;
+  cursor: pointer;
+}
+
+input {
+  height: 12px;
+  width: 150px;
+  border: 1px solid black;
+  padding: 5px;
+  padding-left: 8px;
+  font-size: 10px;
+  color: #666;
+  margin-left: 5px;
+}
+
+a {
+  color: #dd93b6;
+}
+
+a :hover {
+  color: #eacada;
+}
+
+img {
+  width: 90%;
+}
+
+.socialbox {
+  display: block;
+  text-align: right;
+  margin-right: 70px;
+}
+
+.social {
+  display: inline-block;
+}
+
+.icon img {
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  right: -120px;
+}
+
+.content {
+  margin-bottom: 150px;
+  color: white;
+}
+
+.description {
+  width: 300px;
+}
+
+.text {
+  width: 300px;
+  text-align: left;
+  margin: auto;
+  font-weight: 300;
+  color: #333;
+}
+
+.mail {
+  display: inline-block;
+  color: #333;
+
+}
+
+.suscribe {
+  display: inline-block;
+  margin-bottom: -16px;
+}
+
+.suscribetext {
+  display: inline-block;
+}
+
+.buttonbox {
+  display: inline-block;
+}
+
+.social {
+  width: 40px;
+  margin: auto;
+  display: inline-block;
+}
+
+.fab {
+  color: #dd93b6;
+  font-size: 28px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+p.copyright {
+  font-family: Times, serif;
+  color: black;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .suscribetext {
+    display: block;
+  }
+
+  .socialbox {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .input {
+    margin-bottom: 28px;
+    margin-top: 6px;
+  }
